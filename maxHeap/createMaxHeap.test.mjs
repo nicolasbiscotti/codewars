@@ -49,10 +49,6 @@ describe("removeMax", () => {
     removeMax(array);
     expect(array).to.deep.equal([10, 5, 8, 3]);
   });
-
-  // [2, 5, 4, 25, 3, 12]
-
-  // [2, 5, 3, 25, 3, 4]
 });
 
 describe("Create Max Heap", () => {
